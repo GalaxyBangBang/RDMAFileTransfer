@@ -8,7 +8,7 @@ The program was written to transfer large data sets in the form of many 20GB fil
 as part of the Data Acquisition for a Nulear Physics experiment at Jefferson Lab (http://www.jlab.org).
 To use it, just run one instance in server mode on the machine you want the file transferred TO:
 
-> hdrdmacp -s
+> hdrdmacp -s -n 4 -m 8GB
 
 And run it in client mode on the machine you wish to transfer the file FROM, giving
 it the local file as the first argument and then the remote host+destination directory
